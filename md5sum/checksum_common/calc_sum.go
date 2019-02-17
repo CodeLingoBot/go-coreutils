@@ -116,8 +116,7 @@ func gen_checksum(files []string, t string) bool {
 	return !has_error
 }
 
-/*
-   generate the checksum for given file list.
+/* GenerateChecksum: generate the checksum for given file list.
 
    files: the file name lists to generate checksum
 

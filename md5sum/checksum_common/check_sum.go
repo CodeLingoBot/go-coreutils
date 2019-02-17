@@ -163,8 +163,7 @@ func check_checksum_f(fp io.Reader, t string) bool {
 	return !has_err
 }
 
-/*
-read the file contains the checksum and check it
+/* CompareChecksum reads the file contains the checksum and check it
 
 files: file name lists which contains the checksums.
 
